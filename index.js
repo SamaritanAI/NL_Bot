@@ -18,5 +18,4 @@ client.on('messageCreate', message => {
     }
 });
 
-// Login to Discord with your app's token
 client.login(process.env.DISCORD_BOT_TOKEN);
